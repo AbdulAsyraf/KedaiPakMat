@@ -2,10 +2,14 @@ package model;
 
 public class Kuih extends Entity {
 	private int supplierId;
-	private float price;
+	private double price;
 	
 	public Kuih() {
 		super();
+	}
+	
+	public Kuih(int id, String name) {
+		super(id, name);
 	}
 	
 	public int getSupplierId() {
@@ -14,10 +18,10 @@ public class Kuih extends Entity {
 	public void setSupplierId(int supplierId) {
 		this.supplierId = supplierId;
 	}
-	public float getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(float price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	
