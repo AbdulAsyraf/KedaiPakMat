@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class MysqlDatabase {
 
-	private static String DB_URL = "jdbc:mysql://localhost:3306/test?useSSL=false";
+	private static String DB_URL = "jdbc:mysql://502m.hopto.org:3306/test?useSSL=false";
 	private static String USER = "User";
 	private static String PASS = "abc123";
 	
