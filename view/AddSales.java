@@ -124,5 +124,6 @@ public class AddSales extends JFrame {
 		});
 		btnSave.setBounds(236, 227, 89, 23);
 		contentPane.add(btnSave);
+		
 	}
 }
